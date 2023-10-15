@@ -23,7 +23,7 @@ public class Starter {
         int num2;
         boolean isRoman = false;
 
-        if (array[0].matches("[a-zA-Z]+")&&array[2].matches("[a-zA-Z]+")) {
+        if (array[0].matches("[A-Z]+")&&array[2].matches("[A-Z]+")) {
             isRoman = true;
           num1=RomanToNumber.romanToArabic(array[0]);
           num2=RomanToNumber.romanToArabic(array[2]);
